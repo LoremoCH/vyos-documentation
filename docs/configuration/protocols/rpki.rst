@@ -135,6 +135,14 @@ Configuration
 
   This is a mandatory setting.
 
+.. cfgcmd:: set protocols rpki cache <address> source <address>
+
+  Define a local IPv4 or IPv6 address used as source when connecting to the rpki
+  cache server. This can be useful if you only want to whitelist one IP (for example
+  loopback) on the firewall of the cache server.
+
+  This is an optional configuration setting.
+
 SSH
 ===
 
